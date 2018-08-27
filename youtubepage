@@ -1,0 +1,96 @@
+<html>
+<head>
+<style>
+ .title{
+    display:flex;
+    align-items: center;
+ }
+ .image{
+    margin:0px 170px;
+ }
+ .button{
+    width: 50px;
+    height: 50px;
+	border-radius: 56px;
+	margin:0px 30px;
+ }
+ .videos{
+ margin :10px 10px;
+ }
+
+ 
+</style>
+</head>
+<body>
+    <fieldset style="background: pink">
+	<div class="title">
+       <div > <img src="C:\Users\sailu\Desktop\1-1-56-800x533.jpg"></div>
+	   <div class="image"><input type="text" placeholder="search" style="width:232px"></div>
+	   <div ><input class="button" type="button" value="S"></div>
+	   <div ><input class="button" type="button" value="A"></div>
+	   <div ><input class="button" type="button" value="I"></div>
+	   <div ><input class="button" type="button" value="L"></div>
+	   <div ><input class="button" type="button" value="U"></div>
+	   </div>
+	</fieldset>
+	<fieldset>
+	<table border="0" width="10px">
+	<tr>
+	<td bgcolor="gray">
+	<ul><li><h3>HOME</h3></li>
+	    <li><h3>TRENDING<h3></li>
+		<li><h3>HISTORY</h3></li>
+		<li><h3>GAMES</h3></li>
+		<li><h3>MUSIC</h3></li>
+		<li><h3>SPORTS</h3></li>
+		<li><h3>GAMES</h3></li>
+		<li><h3>NEWS</h3></li></ul>
+	</td>
+	<td>
+	<div>
+	<h1>Recommended</h1></div>
+	<div class="title">
+	
+	 <div class="videos">     
+          <a href="E:\mobile\movies\gopala.mp4"><video width="320" height="240"  controls><source src="E:\mobile\movies\gopala.mp4" ></video></a>
+	</div>	 
+    <div class="videos">     
+          <video width="320" height="240" controls><source src="E:\mobile\movies\gopala.mp4" ></video>
+	</div>
+    <div class="videos">     
+          <video width="320" height="240" controls><source src="E:\mobile\movies\gopala.mp4" ></video>
+	</div>	
+	</div>
+	<div>
+	<h1>Music</h1></div>
+	<div class="title">
+	 <div class="videos">     
+          <video width="320" height="240" controls><source src="E:\mobile\videos\Dandanakka .mp4" ></video>
+	</div>	 
+    <div class="videos">     
+          <video width="320" height="240" controls><source src="E:\mobile\videos\Dandanakka .mp4" ></video>
+	</div>
+    <div class="videos">     
+          <video width="320" height="240" controls><source src="E:\mobile\videos\Dandanakka .mp4" ></video>
+	</div>	
+	</div>
+	<div>
+	<h1>Videos</h1></div>
+	<div class="title">
+	 <div class="videos">     
+          <video width="320" height="240" controls><source src="E:\mobile\videos\Jimmiki kamal.mp4" ></video>
+	</div>	 
+    <div class="videos">     
+          <video width="320" height="240" controls><source src="E:\mobile\videos\Jimmiki kamal.mp4" ></video>
+	</div>
+    <div class="videos">     
+          <video width="320" height="240" controls><source src="E:\mobile\videos\Jimmiki kamal.mp4" ></video>
+	</div>	
+	</div>
+	</td>
+	
+	</tr>
+	</table>
+	</fieldset>
+</body>
+</html>
