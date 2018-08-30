@@ -4,6 +4,8 @@
  .title{
     display:flex;
     align-items: center;
+	justify-content: space-between;
+	
  }
  .image{
     margin:0px 170px;
@@ -25,18 +27,15 @@
     <fieldset style="background: pink">
 	<div class="title">
        <div > <img src="C:\Users\sailu\Desktop\1-1-56-800x533.jpg"></div>
-	   <div class="image"><input type="text" placeholder="search" style="width:232px"></div>
+	   <div class="image"><input type="text" style="padding:10px 90px;"><input type="submit" style="padding: 10px; " value="search"></div>
 	   <div ><input class="button" type="button" value="S"></div>
-	   <div ><input class="button" type="button" value="A"></div>
-	   <div ><input class="button" type="button" value="I"></div>
-	   <div ><input class="button" type="button" value="L"></div>
-	   <div ><input class="button" type="button" value="U"></div>
+	
 	   </div>
 	</fieldset>
 	<fieldset>
-	<table border="0" width="10px">
+	<table border="0" width="10px" >
 	<tr>
-	<td bgcolor="gray">
+	<td bgcolor="gray" style="padding-right:50">
 	<ul><li><h3>HOME</h3></li>
 	    <li><h3>TRENDING<h3></li>
 		<li><h3>HISTORY</h3></li>
@@ -47,44 +46,44 @@
 		<li><h3>NEWS</h3></li></ul>
 	</td>
 	<td>
-	<div>
+	<div style="border-bottom:1px solid #ccc;">
 	<h1>Recommended</h1></div>
 	<div class="title">
 	
 	 <div class="videos">     
-          <a href="E:\mobile\movies\gopala.mp4"><video width="320" height="240"  controls><source src="E:\mobile\movies\gopala.mp4" ></video></a>
+          <a href="E:\mobile\movies\gopala.mp4"><video width="320" height="240"  controls><source src="E:\mobile\movies\gopala.mp4" ></video></a><div>MUKKUNDA</div>
 	</div>	 
     <div class="videos">     
-          <video width="320" height="240" controls><source src="E:\mobile\movies\gopala.mp4" ></video>
+          <video width="320" height="240" controls><source src="E:\mobile\movies\gopala.mp4" ></video><div>GOPALA</div>
 	</div>
     <div class="videos">     
-          <video width="320" height="240" controls><source src="E:\mobile\movies\gopala.mp4" ></video>
+          <video width="320" height="240" controls><source src="E:\mobile\movies\gopala.mp4" ></video><div>DANDANAKA</div>
 	</div>	
 	</div>
-	<div>
+	<div style="border-bottom:1px solid #ccc">
 	<h1>Music</h1></div>
 	<div class="title">
 	 <div class="videos">     
-          <video width="320" height="240" controls><source src="E:\mobile\videos\Dandanakka .mp4" ></video>
+          <video width="320" height="240" controls><source src="E:\mobile\videos\Dandanakka .mp4" ></video><div>JimikiKamal</div>
 	</div>	 
     <div class="videos">     
-          <video width="320" height="240" controls><source src="E:\mobile\videos\Dandanakka .mp4" ></video>
+          <video width="320" height="240" controls><source src="E:\mobile\videos\Dandanakka .mp4" ></video><div>GUNNAGUNNA</div>
 	</div>
     <div class="videos">     
-          <video width="320" height="240" controls><source src="E:\mobile\videos\Dandanakka .mp4" ></video>
+          <video width="320" height="240" controls><source src="E:\mobile\videos\Dandanakka .mp4" ></video><div>DaariChudu</div>
 	</div>	
 	</div>
-	<div>
+	<div style="border-bottom:1px solid #ccc;">
 	<h1>Videos</h1></div>
 	<div class="title">
 	 <div class="videos">     
-          <video width="320" height="240" controls><source src="E:\mobile\videos\Jimmiki kamal.mp4" ></video>
+          <video width="320" height="240" controls><source src="E:\mobile\videos\Jimmiki kamal.mp4" ></video><div>ManasaPalakave</div>
 	</div>	 
     <div class="videos">     
-          <video width="320" height="240" controls><source src="E:\mobile\videos\Jimmiki kamal.mp4" ></video>
+          <video width="320" height="240" controls><source src="E:\mobile\videos\Jimmiki kamal.mp4" ></video><div>KannulaLogilo</div>
 	</div>
     <div class="videos">     
-          <video width="320" height="240" controls><source src="E:\mobile\videos\Jimmiki kamal.mp4" ></video>
+          <video width="320" height="240" controls><source src="E:\mobile\videos\Jimmiki kamal.mp4" ></video><div>KokilaKokila</div>
 	</div>	
 	</div>
 	</td>
